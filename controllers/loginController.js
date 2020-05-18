@@ -12,8 +12,6 @@ const login = async (req, res) => {
     if (listaErros.isEmpty()) {
 
         const { email, senha } = req.body;
-        console.log(`*************************************************************
-        ${email}`);
         
         const usuario = await Usuario.findOne( { where: {email} });          
         
