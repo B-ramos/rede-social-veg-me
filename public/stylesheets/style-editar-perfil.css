@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Orbitron:400,600,700&display=swap');
+
+
+#form{
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: .25rem;
+    margin-bottom: 15px;
+}   
+
+input[type='file'] {
+    display: none
+}
+
+#foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 15vh;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btn-salvar {
+    background-color: #404040;
+    color: #98E144;
+    border-radius: 0.25rem;
+}
+
+.btn-salvar:hover {
+    opacity: 0.9;
+}
+
+.form-control,
+.form-control-file {
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: .25rem;
+    resize: none;
+}
+
+#texto-identificacao{
+    color:#404040;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+}
+
